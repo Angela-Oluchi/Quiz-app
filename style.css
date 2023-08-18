@@ -232,11 +232,30 @@ body{
     color:green;
     background-color: rgb(133, 150, 133);
 }
+
+.options-list .option.correct{
+    border-color: green;
+    color:green;
+    background-color: rgb(133, 150, 133);
+}
+
+
 .icon.cross{
     border-color: rgb(134, 2, 2);
     color:rgb(134, 2, 2);
     background-color: rgb(129, 88, 88);
 }
+
+.options-list .option.incorrect{
+    border-color: rgb(134, 2, 2);
+    color:rgb(134, 2, 2);
+    background-color: rgb(129, 88, 88);
+}
+
+.options-list .option.disabled{
+    pointer-events: none;
+}
+
 
 .quiz-box footer{
     height: 60px;

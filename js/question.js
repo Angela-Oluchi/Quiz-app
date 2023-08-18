@@ -1,4 +1,4 @@
-let questions = [
+let ques = [
     {
         numb: 1,
         question: "What does HTML stand for?",
@@ -26,10 +26,10 @@ let questions = [
         question: "Choose the correct HTML element for the largest heading:",
         answer:  "<h1>",
         options: [
-            "<head>",
-            "<h6>",
-            "<heading>",
-            "<h1>"
+            "Hyper Text Markup Language2",
+            "Hyper Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyperlinks and Text Markup Language"
         ]
     },
     {
@@ -37,10 +37,10 @@ let questions = [
         question: "What is the correct HTML element for inserting a line break?",
         answer:  "<br>",
         options: [
-            "<br>",
-            "<break>",
-            "<div>",
-            "<section>"
+            "Hyper Text Markup Language3",
+            "Hyper Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyperlinks and Text Markup Language"
         ]
     },
     {
@@ -48,7 +48,7 @@ let questions = [
         question: "What is the correct HTML for adding a background color?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "<body bg=>",
+            "Hyper Text Markup Language4",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -59,7 +59,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup Language5",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -70,7 +70,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup Language6",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -81,7 +81,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup Language7",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -92,7 +92,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup Language8",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -103,7 +103,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup Language9",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -114,7 +114,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup1 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -125,7 +125,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup2 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -136,7 +136,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup3 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -147,7 +147,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup4 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -158,7 +158,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup5 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -169,7 +169,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup6 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -180,7 +180,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup7 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -191,7 +191,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup8 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -202,7 +202,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool Markup9 Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -213,7 +213,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool1 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -224,7 +224,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool2 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -235,7 +235,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool3 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -246,7 +246,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool4 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -257,7 +257,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool5 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -268,7 +268,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool6 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -279,7 +279,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool7 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -290,7 +290,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool8 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -301,7 +301,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hyper Tool9 Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -313,7 +313,7 @@ let questions = [
         answer:  "Hyper Text Markup Language",
         options: [
             "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
+            "Hyper Text1 Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
@@ -324,7 +324,7 @@ let questions = [
         answer:  "Hyper Text Markup Language",
         options: [
             "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
+            "Hyper Text2 Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
@@ -335,7 +335,7 @@ let questions = [
         answer:  "Hyper Text Markup Language",
         options: [
             "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
+            "Hyper Text3 Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
@@ -347,7 +347,7 @@ let questions = [
         options: [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
-            "Home Tool Markup Language",
+            "Home Tool4 Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
     },
@@ -359,7 +359,7 @@ let questions = [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Hyperlin5ks and Text Markup Language"
         ]
     },
     {
@@ -368,7 +368,7 @@ let questions = [
         answer:  "Hyper Text Markup Language",
         options: [
             "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
+            "Hyper Text Mark6up Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
@@ -380,7 +380,7 @@ let questions = [
         options: [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
-            "Home Tool Markup Language",
+            "Home Tool Markup 7Language",
             "Hyperlinks and Text Markup Language"
         ]
     },
@@ -391,7 +391,7 @@ let questions = [
         options: [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
-            "Home Tool Markup Language",
+            "Home Tool Markup 8Language",
             "Hyperlinks and Text Markup Language"
         ]
     },
@@ -402,7 +402,7 @@ let questions = [
         options: [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
-            "Home Tool Markup Language",
+            "Home Tool 9Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
     },
@@ -414,7 +414,7 @@ let questions = [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Hy1perlinks and Text Markup Language"
         ]
     },
     {
@@ -425,7 +425,7 @@ let questions = [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Hy2perlinks and Text Markup Language"
         ]
     },
     {
@@ -436,7 +436,7 @@ let questions = [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Hy3perlinks and Text Markup Language"
         ]
     },
     {
@@ -444,7 +444,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "Hy4per Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -458,7 +458,7 @@ let questions = [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Hy5perlinks and Text Markup Language"
         ]
     },
     {
@@ -469,7 +469,7 @@ let questions = [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "H6yperlinks and Text Markup Language"
         ]
     },
     {
@@ -477,7 +477,7 @@ let questions = [
         question: "What does HTML stand for?",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
+            "7Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
@@ -490,7 +490,7 @@ let questions = [
         options: [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
-            "Home Tool Markup Language",
+            "8Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
     },
@@ -501,7 +501,7 @@ let questions = [
         options: [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
-            "Home Tool Markup Language",
+            "9Home Tool Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
     },
@@ -513,7 +513,7 @@ let questions = [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "1Hyperlinks and Text Markup Language"
         ]
     },
     {
@@ -523,7 +523,7 @@ let questions = [
         options: [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
-            "Home Tool Markup Language",
+            "Ho2me Tool Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
     },
@@ -534,7 +534,7 @@ let questions = [
         options: [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
-            "Home Tool Markup Language",
+            "Home To3ol Markup Language",
             "Hyperlinks and Text Markup Language"
         ]
     },
@@ -546,7 +546,7 @@ let questions = [
             "Hyper Tool Markup Language",
             "Hyper Text Markup Language",
             "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Hyperli4nks and Text Markup Language"
         ]
     },
     ];
