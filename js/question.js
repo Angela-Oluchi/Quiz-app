@@ -1,552 +1,554 @@
 let ques = [
     {
         numb: 1,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
-        options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+        question: "Inside which HTML element do we put the JavaScript?",
+        answer: "<'script'>",
+        options: [ 
+           
+            "<'script'>",
+            "<'js'>",
+            "<'scripting'>",
+            "<'javascript'>"
         ]
     },
     {
         numb: 2,
-        question: "What is making web Standard?",
-        answer: "The World Wide Web Consortium" ,
+        question: "What case is used in Javascript?",
+        answer: "Camel Case" ,
         options: [
-            "Google",
-            "Microsoft",
-            "Mozilla",
-            "The World Wide Web Consortium"
+            "uppercase",
+            "lowercase",
+            "Paragraphing",
+            "Camel Case"
         ]
     },
     {
         numb: 3,
-        question: "Choose the correct HTML element for the largest heading:",
-        answer:  "<h1>",
+        question: "What data type is supported by JavaScript?",
+        answer:  "String",
         options: [
-            "Hyper Text Markup Language2",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "String",
+            "updated data",
+            "True",
+            "if statement"
         ]
     },
     {
         numb: 4,
-        question: "What is the correct HTML element for inserting a line break?",
-        answer:  "<br>",
+        question: " Which of the following is not JavaScript Data Types",
+        answer:  "Float",
         options: [
-            "Hyper Text Markup Language3",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Undefined",
+            "Number",
+            "Boolean",
+            "Float"
         ]
     },
     {
         numb: 5,
-        question: "What is the correct HTML for adding a background color?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which company developed JavaScript?",
+        answer:  "Netscape",
         options: [
-            "Hyper Text Markup Language4",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Netscape",
+            "Bell Labs",
+            "Sun Microsystems",
+            " IBM"
         ]
     },
-    {
+    { 
         numb: 6,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which of the following is correct about features of JavaScript?",
+        answer: "JavaScript is a object-based scripting language.",
         options: [
-            "Hyper Tool Markup Language5",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            " It can not Handling dates and time.",
+            "JavaScript is a object-based scripting language.",
+            "JavaScript is not interpreter based scripting language.",
+            "All of the above"
         ]
     },
     {
         numb: 7,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How do you call a function in Javascript",
+        answer:  "myFunction()",
         options: [
-            "Hyper Tool Markup Language6",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "myfunction{}",
+            "myfunction[]",
+            "MyFunction()",
+          "myFunction()"
         ]
     },
     {
         numb: 8,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "which of the following are advantages of JavaScript?",
+        answer:  "All of the above",
         options: [
-            "Hyper Tool Markup Language7",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Less server interaction",
+            "Increased interactivity",
+            "Richer interfaces",
+            "All of the above"
         ]
     },
     {
         numb: 9,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which of the following true about Javascript?",
+        answer:  "All of the above",
         options: [
-            "Hyper Tool Markup Language8",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Client-side JavaScript does not allow the reading or writing of files",
+            "JavaScript cannot be used for networking applications",
+            "JavaScript doesn't have any multi-threading or multiprocessor capabilities",
+            "All of the above"
         ]
     },
     {
         numb: 10,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "JavaScript ignores?",
+        answer:  "All of the above",
         options: [
-            "Hyper Tool Markup Language9",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "spaces",
+            "tabs",
+            "All of the above",
+            "newlines"
         ]
     },
     {
         numb: 11,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: " Among the following, which one is a ternary operator in JavaScript?",
+        answer:  "?",
         options: [
-            "Hyper Tool Markup1 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "&:",
+            "?",
+            "::",
+            "#"
         ]
     },
     {
         numb: 12,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: " What are the three important manipulations done in a for loop on a loop variable in javascript ",
+        answer:  "the initialization, the test, and the update",
         options: [
-            "Hyper Tool Markup2 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "the initialization, the test, and Incrementation",
+            "the initialization, the Incrementation, and update",
+            "the initialization, the test, and the update",
+            " All of the above"
         ]
     },
     {
         numb: 13,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "What does javascript use instead of == and !=?",
+        answer:  "It uses === and !== instead",
         options: [
-            "Hyper Tool Markup3 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "It uses equalto()",
+            "It uses equals() and notequals() instead",
+            "It uses === and !== instead",
+            "It uses bitwise checking"
         ]
     },
     {
         numb: 14,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Among the keywords below, which one is not a statement?",
+        answer:  "use strict",
         options: [
-            "Hyper Tool Markup4 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "use strict",
+            "if",
+            "debugger",
+            "with"
         ]
     },
     {
         numb: 15,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: " Which symbol is used for comments in Javascript?",
+        answer:  "//",
         options: [
-            "Hyper Tool Markup5 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "\\",
+            "//",
+            " \* *\ ",
+            " \* */"
         ]
     },
     {
-        numb: 16,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+         numb: 16,
+        question: " Which of them is not the looping structures in JavaScript?",
+        answer:  "forwhich",
         options: [
-            "Hyper Tool Markup6 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "forwhich",
+            "dowhile",
+            "for",
+            "while"
         ]
     },
     {
         numb: 17,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which is not the types of Pop up boxes available in JavaScript?",
+        answer:  "Border-box",
         options: [
-            "Hyper Tool Markup7 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Alert",
+            "Prompt",
+            "Confirm",
+            "Border-box"
         ]
     },
     {
         numb: 18,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: " what is the disadvantage of using innerHTML in JavaScript?",
+        answer:  'Even if you use +=like "innerHTML = innerHTML + "html" " still the old content is replaced by html',
         options: [
-            "Hyper Tool Markup8 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Content can not be replaced everywhere",
+            'Even if you use +=like "innerHTML = innerHTML + "html" " still the old content is replaced by html',
+            " The entire innerHTML content is not re-parsed and build into elements, therefore its not slower",
+           ' We can use like "appending to innerHTML"'
+
         ]
     },
     {
         numb: 19,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "What are the two basic groups of dataypes in JavaScript?",
+        answer:  "Primitive and  Reference types.",
         options: [
-            "Hyper Tool Markup9 Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Primitive and  Reference types.",
+            "True and False",
+            "var and let",
+            "string and number"
         ]
     },
     {
         numb: 20,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: ". Javascript string using double quotes is exactly the same as a string using single quotes?",
+        answer:  "True",
         options: [
-            "Hyper Tool1 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "True",
+            "False",
+            "None of the above",
+            "All of the above"
         ]
     },
     {
         numb: 21,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which of the following function of Array object applies a function to remove and add a value at the end of an array?",
+        answer:  ".pop() and  .push()",
         options: [
-            "Hyper Tool2 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            ".unshift() and .shift()",
+            ".pop() and  .push()",
+            "console.log()",
+            ".reduceRight() and .reduce()"
         ]
     },
     {
         numb: 22,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "An Array is?",
+        answer:  "An Object",
         options: [
-            "Hyper Tool3 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "A Data Type",
+            "An Object",
+            "A string",
+            "A boolean"
         ]
     },
     {
         numb: 23,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which of the following method checks if its argument is not a number?",
+        answer:  "isNaN()",
         options: [
-            "Hyper Tool4 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "NaN()",
+            "nonNaN()",
+            "blockNaN()",
+            "isNaN()"
         ]
     },
     {
         numb: 24,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "JavaScript can be written __________",
+        answer:  "directly into JS file and included into HTML",
         options: [
-            "Hyper Tool5 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "directly into the css file",
+            "directly into HTML pages",
+            "directly into JS file and included into HTML",
+            "directly on the server page"
         ]
     },
     {
         numb: 25,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "The pop() method of the array does which of the following task ?",
+        answer:  "decrements the total length by 1",
         options: [
-            "Hyper Tool6 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "updates the element",
+            "prints the first element but no effect on the length",
+            " increments the total length by 1",
+            "decrements the total length by 1"
         ]
     },
     {
         numb: 26,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How to get a particular value using the tagged name?",
+        answer:  "getElementsbyTagName()",
         options: [
-            "Hyper Tool7 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "getElementsbyId()",
+            "getElementsbyClassName()",
+            "getElementsbyTagName()",
+            "getTagName()"
         ]
     },
     {
         numb: 27,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: 'Which of the following is the correct syntax to display "Letsfindcourse" in an alert box using JavaScript?',
+        answer:  "alert('Letsfindcourse');",
         options: [
-            "Hyper Tool8 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+           " alert('Letsfindcourse');",
+          ' alert-box("Letsfindcourse")',
+         ' confirm("Letsfindcourse");',
+        ' msgbox("Letsfindcourse");'
         ]
     },
     {
         numb: 28,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question:' What is the correct syntax for referring to an external script called "LFC.js"',
+        answer:  '<script src="LFC.js">',
         options: [
-            "Hyper Tool9 Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+             "<script type='LFC.js'>",
+            "<script source='LFC.js'>",
+           "<script src='LFC.js'>",
+            "<script ref='LFC.js'>"
         ]
     },
     {
         numb: 29,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How do you create a function?",
+        answer:  "Function myFunction()",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text1 Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Function myFunction()",
+            "Function myFunction{}",
+            "Function: myFunction()",
+            "Function(myFunction())"
         ]
     },
     {
         numb: 30,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How do you call a function named firstName?",
+        answer:  "firstName()",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text2 Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "calling firstName()",
+            "call function firstName()",
+            "calling function firstname()",
+            "firstname()"
         ]
     },
     {
         numb: 31,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How to write an IF statement in JavaScript?",
+        answer:  "if (i == 5)",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text3 Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "if i == 5 then",
+            "if i = 5 then",
+            "if (i == 5)",
+            "if i = 5"
         ]
     },
     {
         numb: 32,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+        answer:  "if( i != 5)",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool4 Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "if i < > 5",
+            "if i =! 5 then",
+            "if (i < > 5)",
+            "if( i != 5)"
         ]
     },
     {
         numb: 33,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How does a FOR loop start?",
+        answer:  "for (i = 0; i <= 5; i++)",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlin5ks and Text Markup Language"
+            "for i = 1 to 5",
+            "for (i = 0; i <= 5)",
+            "for (i = 0; i++)",
+            "for (i = 0; i <= 5; i++)"
         ]
     },
     {
         numb: 34,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How do you round the number 7.25, to the nearest integer?",
+        answer:  "Math.round(7.25)",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Mark6up Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Math.rnd(7.25)",
+            "Math.round(7.25)",
+            "round(7.25)",
+            "rnd(7.25)"
         ]
     },
     {
         numb: 35,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which event occurs when the user clicks on an HTML element?",
+        answer: "onclick",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup 7Language",
-            "Hyperlinks and Text Markup Language"
+            "onmouseover",
+            "onmouseclick",
+            "onclick",
+            "onchange"
         ]
     },
     {
         numb: 36,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "How do you declare a JavaScript variable?",
+        answer:  "var firstName",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup 8Language",
-            "Hyperlinks and Text Markup Language"
+            "v firstname",
+            "variable declare firstname",
+            "var firstName",
+            "variable firstName"
         ]
     },
     {
         numb: 37,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which operator is used to assign a value to a variable?",
+        answer:  "=",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool 9Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "+",
+            "/",
+            "=",
+            "*"
         ]
     },
     {
         numb: 38,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "What will the following code return: Boolean(10 > 9)",
+        answer:  "true",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hy1perlinks and Text Markup Language"
+            "true",
+            "false",
+            "NaN",
+            "Non of the above"
         ]
     },
     {
         numb: 39,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Javascript is same as Java?",
+        answer:  "False",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hy2perlinks and Text Markup Language"
+            "True",
+            "Maybe",
+            "None",
+            "False"
         ]
     },
     {
         numb: 40,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which of these is a variable",
+        answer:  "All of the above",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hy3perlinks and Text Markup Language"
+            "Var",
+            "Let",
+            "const",
+            "All of the above"
         ]
     },
     {
         numb: 41,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "What is the diffrence between 'let' and 'const' ",
+        answer:  "'let' is reassignable while 'const' is not",
         options: [
-            "Hy4per Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "'let' is reassignable while 'const' is not",
+            "'let' can be used inside a function and 'const' can not be used",
+            "They are same thing, no diffrence",
+            "The choice of the developer"
         ]
     },
     {
         numb: 42,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "What is the output of the following code? console.log(3 + 2 + '7')",
+        answer:  "57",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hy5perlinks and Text Markup Language"
+            "12",
+            "35",
+            "57",
+            "327"
         ]
     },
     {
         numb: 43,
-        question: "What does HTML stand for?",
+        question: "Which of these is wrong in javascript eventListener",
         answer:  "Hyper Text Markup Language",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "H6yperlinks and Text Markup Language"
+            "onclick",
+            "border",
+            "mouseup",
+            "keydown"
         ]
     },
     {
         numb: 44,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "All these are diffrent ways to access an HTML element in Javascript except?",
+        answer:  "class=()",
         options: [
-            "7Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "getElementById()",
+            "getElementByTagName()",
+            "querySelectorAll()",
+            "class=()"
         ]
     },
     {
         numb: 45,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which of these brackets is used for objects?",
+        answer:  "{}",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "8Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "()",
+            "[]",
+            "<>",
+            "{}"
         ]
     },
     {
         numb: 46,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Which of these brackets is used for arrays?",
+        answer:  "[]",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "9Home Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "()",
+            "[]",
+            "<>",
+            "{}"
         ]
     },
     {
         numb: 47,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "The triple equal to sign === checks for?",
+        answer:  "Both data type and value",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "1Hyperlinks and Text Markup Language"
+            "Just value",
+            "Just data type",
+            "Both data type and value",
+            "Neither data type nor value"
         ]
     },
     {
         numb: 48,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "A variable cannot be decleared inside a function?",
+        answer:  "False",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Ho2me Tool Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "True",
+            "False",
+            "Maybe",
+            "Definetly true"
         ]
     },
     {
         numb: 49,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "What does DOM stand for?",
+        answer:  "Document Object Model",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home To3ol Markup Language",
-            "Hyperlinks and Text Markup Language"
+            "Document Manipulation",
+            "Desktop object Manipulation",
+            "Document Object Model",
+            "Document Object Manipulation"
         ]
     },
     {
         numb: 50,
-        question: "What does HTML stand for?",
-        answer:  "Hyper Text Markup Language",
+        question: "Javascript is used for?",
+        answer:  "Making a website functional",
         options: [
-            "Hyper Tool Markup Language",
-            "Hyper Text Markup Language",
-            "Home Tool Markup Language",
-            "Hyperli4nks and Text Markup Language"
+            "Making a website functional",
+            "it is the makeup of a website",
+            "it is used for styling",
+            "It is a library"
         ]
     },
     ];

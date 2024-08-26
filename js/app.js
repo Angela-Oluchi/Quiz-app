@@ -17,6 +17,8 @@ exitBtn.onclick = ()=>{
     ruleBox.classList.remove("activeInfo"); // removes the info box
 }
 
+
+
 // if continue button is clicked
 continueBtn.onclick = ()=>{
     ruleBox.classList.remove("activeInfo"); // removes the info box
@@ -71,7 +73,7 @@ nextBtn.onclick = ()=>{
         startTimer(timeValue) 
         clearInterval(counterLine)
         startTimerLine(widthValue) 
-    //    nextBtn.style.display = "none"
+       nextBtn.style.display = "none"
     }
     else{
         console.log("question complete")
