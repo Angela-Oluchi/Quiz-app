@@ -9,13 +9,25 @@ body{
     background-color: rgb(192, 139, 192);
     
 }
-
+/* the start button */
 .start-btn{
     position: absolute;
     top: 40%;
     left: 40%;
     transform: translate(-50% -50%);
 }
+.start-btn button{
+    border: none;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: rgb(192, 139, 192);
+    outline:none;
+    background-color: antiquewhite;
+    cursor: grabbing;
+}
+
+/* rules section */
 .rules-box,
 .quiz-box,
 .result-box{
@@ -34,16 +46,7 @@ body{
     z-index: 5;
 }
 
-.start-btn button{
-    border: none;
-    border-radius: 10px;
-    padding: 1.5rem;
-    font-size: 2rem;
-    color: rgb(192, 139, 192);
-    outline:none;
-    background-color: antiquewhite;
-    cursor: grabbing;
-}
+
 
 .rules-box{
     background-color: white;
@@ -115,7 +118,7 @@ body{
     background-color: rgb(151, 52, 151);
     color: white;
 }
-
+/* the quiz section */
 .quiz-box{
     /* display: none; */
     width: 550px;
@@ -355,4 +358,51 @@ footer .next-btn:hover{
     border: 1px solid rgb(192, 139, 192);
     cursor: grabbing;
     transition: all 0.3s ease;
+}
+/* media query */
+@media only screen and (max-width: 600px) {
+    .start-btn{
+        position: absolute;
+        top: 30%;
+        right: -10%;
+    }.start-btn button{
+        padding: 20px;
+        font-size: 20px;
+        
+    }
+    .rules-box{
+        width: 80%;
+        min-height: 40%;
+        padding: 20px 0;
+    }
+    .rules-box,
+    .quiz-box,
+    .result-box{
+    position: absolute;
+        top: 50%;
+        right: -10%;
+    }
+    .rules-box .btns button{
+        margin: 0;
+        font-size: 16px;
+    }
+    .rules-box .rules-title{
+       
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+    .quiz-box{
+        width: 80%;
+    }
+    .quiz-title{
+        font-size: 10px;
+        font-weight: 600;
+        padding-top: 5px;
+    }
+    .quiz-box section .que-text{
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
 }
